@@ -1,66 +1,44 @@
 body {
   margin: 0;
-  padding: 0;
-  /* background-color: #6abadeba; */
-  font-family: "Arial";
 }
-
 header {
-  display: grid;
-  padding: 5px;
-  background: #ffa600;
-  color: black;
-  font-weight: bolder;
-  align-items: center;
-  justify-content: center;
-}
-
-.login {
-  width: 382px;
-  overflow: hidden;
-  margin: auto;
-  margin: 20 0 0 450px;
-  padding: 80px;
-  background: #23463f;
-  border-radius: 15px;
-}
-
-.login a {
+  background-color: #ffa600;
+  padding: 20px;
   text-align: center;
-  justify-content: center;
 }
-
 h1 {
-  text-align: center;
-  font-weight: bolder;
+  color: black;
+  margin: 0;
+  font-size: 32px;
+}
+form {
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 label {
-  color: #08ffd1;
-  font-size: 17px;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
-#Uname {
-  width: 382px;
-  height: 30px;
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
   border: none;
-  border-radius: 3px;
-  padding-left: 8px;
+  cursor: pointer;
 }
-#Pass {
-  width: 382px;
-  height: 30px;
-  border: none;
-  border-radius: 3px;
-  padding-left: 8px;
-}
-#log {
-  width: 382px;
-  height: 30px;
-  border: none;
-  border-radius: 17px;
-  padding-left: 7px;
-  color: blue;
-}
-span {
-  color: white;
-  font-size: 17px;
+form a {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
 }
