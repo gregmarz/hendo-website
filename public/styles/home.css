@@ -2,6 +2,7 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
 body {
   margin: 0;
 }
@@ -44,4 +45,12 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
+}
+
+footer {
+  bottom: 0;
+  background-color: #ffa600;
+  margin-bottom: 0;
+  margin-top: auto;
+  text-align: center;
 }
