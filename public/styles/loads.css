@@ -4,6 +4,7 @@
 }
 body {
   margin: 0;
+  background-color: aliceblue;
 }
 header {
   display: inline-flex;
@@ -20,12 +21,10 @@ header ul {
 
 header li:hover {
   background-color: #6d92c2;
-  scale: 1.25;
 }
 
 header li {
   padding: 5%;
-  background-color: purple;
   border-radius: 25px;
 }
 
@@ -44,4 +43,12 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  background-color: silver;
+  border-radius: 25%;
+  margin: 25px;
 }

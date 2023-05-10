@@ -4,7 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/loads.css" />
     <title>Loads - Hendo's Logistics LLC</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <a href="#"
+        ><img
+          src="../HendoLogo.jpg"
+          alt="Hendo Logo"
+          style="width: 250px; height: 190px"
+      /></a>
+      <ul>
+        <li><a href="#offer">What We Offer</a></li>
+        <li><a href="#Transportation">FTL & Bulk Transportation</a></li>
+        <li><a href="#Servicing">How Long We Have Been Established</a></li>
+      </ul>
+      <button>Get A Quote!</button>
+    </header>
+
+    <form>
+      <br />
+      <b><span>Trailor Type: </span></b>
+      <input list="trailors" name="TrailorType" />
+      <datalist id="trailors">
+        <option value="trailor1"></option>
+        <option value="trailor2"></option>
+        <option value="trailor3"></option>
+        <option value="trailor4"></option>
+      </datalist>
+      <br /><br />
+      <b><span>Quantity: </span></b><input type="number" /> <br /><br />
+      <b><span>Rate: </span></b>
+      <input type="text" />
+      <br /><br />
+      <b><span>Pickup: </span></b>
+      <input type="text" />
+      <br /><br />
+      <b><span>Destination: </span></b>
+      <input type="text" />
+      <br /><br />
+      <b><span>Pickup Date: </span></b>
+      <input type="date" />
+      <br /><br />
+      <b><span>Delivery Date: </span></b>
+      <input type="date" />
+      <br /><br />
+      <b><span>Notes: </span></b>
+      <input type="text" />
+      <br /><br />
+      <b><span>Upload BOL Files: </span></b> <br />
+      <input type="file" /> <br />
+      <br />
+      <input type="submit" /> <br />
+    </form>
+  </body>
 </html>
