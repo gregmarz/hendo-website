@@ -5,14 +5,21 @@
 body {
   margin: 0;
 }
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  margin: 0;
+  background-color: aliceblue;
+}
 header {
-  display: inline-flex;
+  display: flex;
   background-color: #ffa600;
   padding: 20px;
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 header ul {
   list-style: none;
@@ -20,12 +27,10 @@ header ul {
 
 header li:hover {
   background-color: #6d92c2;
-  scale: 1.25;
 }
 
 header li {
   padding: 5%;
-  background-color: purple;
   border-radius: 25px;
 }
 
@@ -44,4 +49,19 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
+  margin-right: 5px;
+}
+table,
+h1 {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 1%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
 }

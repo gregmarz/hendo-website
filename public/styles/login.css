@@ -5,10 +5,50 @@
 body {
   margin: 0;
 }
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  margin: 0;
+  background-color: aliceblue;
+}
 header {
+  display: flex;
   background-color: #ffa600;
   padding: 20px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+header ul {
+  list-style: none;
+}
+
+header li:hover {
+  background-color: #6d92c2;
+}
+
+header li {
+  padding: 5%;
+  border-radius: 25px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+button {
+  background-color: #2d4059;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
 }
 h1 {
   color: black;

@@ -4,7 +4,9 @@
 }
 body {
   margin: 0;
-  background-color: aliceblue;
+}
+body img {
+  width: 100%;
 }
 header {
   display: flex;
@@ -42,22 +44,4 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
-  margin-right: 5px;
-}
-
-form {
-  display: grid;
-  justify-content: center;
-  background-color: silver;
-  border-radius: 25%;
-  /* margin: 25px; */
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
-
-footer {
-  background-color: #ffa600;
-  margin: auto;
 }
